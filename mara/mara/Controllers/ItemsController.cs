@@ -46,7 +46,7 @@ namespace mara.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutItem(long id, Item item)
         {
-            if (id != item.ID)
+            if (id != item.Id)
             {
                 return BadRequest();
             }
@@ -80,7 +80,7 @@ namespace mara.Controllers
             _context.Items.Add(item);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetItem", new { id = item.ID }, item);
+            return CreatedAtAction("GetItem", new { id = item.Id }, item);
         }
 
         // DELETE: api/Items/5
@@ -101,7 +101,7 @@ namespace mara.Controllers
 
         private bool ItemExists(long id)
         {
-            return _context.Items.Any(e => e.ID == id);
+            return _context.Items.Any(e => e.Id == id);
         }
     }
 }

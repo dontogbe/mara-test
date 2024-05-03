@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mara")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29727196ff54465500b9f3fa77a655ec53eaee9a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+373343794da9f7ea49fd2e745123f5b56432bfce")]
 [assembly: System.Reflection.AssemblyProductAttribute("mara")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mara")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
