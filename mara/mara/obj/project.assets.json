@@ -8325,11 +8325,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/don/dotnetcode/mara-test/mara/Mara/mara.csproj",
+      "projectUniqueName": "/home/don/dotnetcode/mara-test/mara/mara/mara.csproj",
       "projectName": "mara",
-      "projectPath": "/home/don/dotnetcode/mara-test/mara/Mara/mara.csproj",
+      "projectPath": "/home/don/dotnetcode/mara-test/mara/mara/mara.csproj",
       "packagesPath": "/home/don/.nuget/packages/",
-      "outputPath": "/home/don/dotnetcode/mara-test/mara/Mara/obj/",
+      "outputPath": "/home/don/dotnetcode/mara-test/mara/mara/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/don/.nuget/NuGet/NuGet.Config"

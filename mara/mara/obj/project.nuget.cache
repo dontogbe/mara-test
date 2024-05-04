@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XXmPR04O7w1ffl0Mf6v1OQyFqEayW25tFQH7PgnoyUPgAeQ7IFZ28oyHpt311jM3NUVpW3dZRYh7ktmtQjl4HQ==",
+  "dgSpecHash": "ZZK/zryMvyjzBrcsW8NCW0vU2thAXEApwXinBSD2H3yyXb9qIn+67hDQobpIMGLrq1cgane0PqcKSXPNDP09+Q==",
   "success": true,
-  "projectFilePath": "/home/don/dotnetcode/mara-test/mara/Mara/mara.csproj",
+  "projectFilePath": "/home/don/dotnetcode/mara-test/mara/mara/mara.csproj",
   "expectedPackageFiles": [
     "/home/don/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/home/don/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
