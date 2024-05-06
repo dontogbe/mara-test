@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Mara.Models;
 var builder = WebApplication.CreateBuilder(args);
-
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddControllers();
@@ -42,7 +41,11 @@ app.MapGet("/weatherforecast", () =>
 .WithOpenApi();
 
 app.UseAuthorization();
-
+app.UseCors(builder => builder
+             .WithOrigins("http://localhost:4200")
+             .AllowAnyMethod()
+             .AllowAnyHeader()
+             .AllowCredentials());
 app.MapControllers();
 app.Run();
 
